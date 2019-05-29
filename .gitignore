@@ -1,0 +1,18 @@
+.pio
+.pioenvs
+.piolibdeps
+.clang_complete
+.gcc-flags.json
+
+# any data directory then the real one
+/data_*/
+
+# my tests
+/myTests
+
+# source code directory to be analysed
+analysing_only
+
+# configuration of services / settings
+credentials.json
+config_uh.json
